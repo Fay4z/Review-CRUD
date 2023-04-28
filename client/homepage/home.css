@@ -1,0 +1,69 @@
+body{
+    background-image: url("../bg_home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.wrapper{
+    padding-left: 40px;
+}
+.home-head{
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.right-arrow{
+    width: 2%;
+    position: absolute;
+    padding-left: 10px;
+}
+.link-review-div{
+    background-color: #dc2f02;
+    width: 210px;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 30px;
+}
+.link-review-add{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+.link-review-see{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+.div-see{
+    width: 280px;
+}
+.quote{
+    margin: 0;
+    padding-bottom: 0px;
+    font-family: cursive;
+    font-size: 25px;
+
+}
+.quote-div p{
+    padding: 6px 0px 6px 0px;
+    margin: 0;
+    margin-left: 190px;
+    width: 250px;
+    text-align: right;
+    font-size: 15px;
+
+}
+.quoteReal{
+    font-size: 27px;
+}
+.quote-div{
+    padding-bottom: 30px;
+    width: 500px;
+}
+/* .link-button{
+    display: flex;
+} */

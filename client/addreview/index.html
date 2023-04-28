@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>web app</title>
+    </head>
+<body>
+    <h1 class="add-head">Add a Review</h1>
+    <div class="form-main">
+        <div class="form-right">
+            <form action="#" class="form">
+
+                <div class="product-details">
+
+                    <h1>Product Details</h1>
+
+                    <div class="product-details-wrapper">
+                        <div class="name-div form-div">
+                            <p>Product Name:</p>
+                            <input type="text" id="name-input">
+                        </div>
+                        
+            
+                        <div class="purchased-in-div form-div">
+                            <p class="purchased_in">Purchased In</p>
+                            <input type="text" name="purchased_in" id="purchased_in">
+                        </div>
+                        
+            
+                        <div class="amount-div form-div">
+                            <p class="amount">Amount:</p>
+                            <input type="number" name="amount" id="amount">
+                        </div>
+            
+                        <div class="review-div form-div">
+                            <p>Review:</p>
+                            <textarea type="text" id="comment-input" cols="60" rows="10"></textarea>
+                        </div>
+
+                        <div class="statisfaction-div form-div">
+                            <p class="statisfaction_level">statisfaction Level:</p>
+                            <select id="statisfaction_level" name="statisfaction_level">
+                                <option value="good">Good</option>
+                                <option value="very-good">Very Good</option>
+                                <option value="super">Super</option>
+                                <option value="excellent">Excellent</option>
+                            </select>
+                        </div>
+            
+            
+                        <div class="star-div form-div">
+                            <p class="star">Star Rating:</p>
+                            <input type="number" name="star" id="star">
+                        </div>
+            
+                    </div>    
+                </div>
+                
+                <div class="reviewer-details">
+
+                    <h1>Reviewer Details</h1>
+
+                    <div class="reviewed-by-div form-div">
+                        <p class="reviewer-input">Reviewed Name:</p>
+                        <input type="text" name="reviewer-input" id="reviewer-input">
+                    </div>
+
+                    <div class="reviewed-by-div form-div">
+                        <p class="reviewer-phone-input">Phone:</p>
+                        <input type="number" name="reviewer-phone-input" id="reviewer--phone-input">
+                    </div>
+
+                    <div class="reviewed-by-div form-div">
+                        <p class="reviewer-email-input">Email:</p>
+                        <input type="text" name="reviewer-email-input" id="reviewer-email-input">
+                    </div>
+                </div>            
+
+                
+                <div class="recommend-div form-div">
+                    <p class="recommend">Would you like to Recommend this product to others</p>
+                    <select name="recommend" id="recommend">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+            
+                <button class="submit">submit</button>
+
+            </form>
+            
+        </div>
+    </div>
+
+    <h1>Go to <a href="/client/reviews/review.html">Reviews Page</a></h1>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="review.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-nav">
+            <ul class="main-nav-ul">
+                <li class="main-nav-li"><a href="../homepage/home.html"> Home</a></li>
+                <li class="main-nav-li"><a href="../addreview/index.html">Add Product Review</a></li>
+            </ul>
+        </div>
+        <div class="mini-wrapper">
+            <h3 class="review-title">Reviews:</h3>
+
+            <div class="search-div">
+                <input placeholder="Search by Product Name" id="search-input">
+                <button id="search-btn">Search</button>
+            </div>
+
+            <br><br><br>
+
+            <div class="sample">
+                <div class="sample-design">
+                    <div class="user-full">
+                        <div class="user-1">
+                            <div class="user-icon">
+                                <img src="../../user.png" alt="user icon">
+                            </div>
+                            <div class="user-details-1">
+                                <h3 class="user-name">Hasan</h3>
+                                <p>04/04/23</p>
+                            </div>
+                        </div>
+                        <div class="user-2">
+                            <h3>User details:</h3>
+                            <div class="user-details-2">
+                                <p>Phone: 1234567890</p>
+                                <p>Email: hasan@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-full">
+                        <div class="product">
+                            <p class="pro-name">Product Name: <b>Redmi Note 9 pro</b> Purchased from <b>Amazon</b></p>
+                            <p class="pro-amount">Amount: <b>20000</b></p>
+                        </div>
+                        <div class="product-review">
+                            <h3>Review:</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste expedita, enim ullam placeat reprehenderit iusto laudantium! Voluptatibus ipsum nulla nemo exercitationem, molestias dolores porro perferendis?</p>
+                        </div>
+                        <div class="s-flex">
+                            <div class="s-inner-1">
+                                <div class="star">
+                                    <p>5 star</p>
+                                </div>
+                                <div class="statisfaction">
+                                    <p>statisfaction: Excellent</p>
+                                </div>
+                            </div>
+                            <div class="s-inner-2">
+                                <div class="delete">
+                                    <button class="delete-btn" data-id=${id}>Delete</button>
+                                </div>
+                                <div class="delete">
+                                    <button class="edit-btn" data-id=${id}>Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="products">
+                <ul class="all">
+                    
+                </ul>
+            </div> -->
+            <section hidden id="update-row">
+                <label>Name:</label>
+                <input type="text" id="update-name-input">
+                <button id="update-row-btn">Update</button>
+            </section>
+        </div>
+    </div>
+
+
+    <script src="review.js"></script>
+</body>
+</html>

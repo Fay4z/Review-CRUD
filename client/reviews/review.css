@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 100%;
+}
+p, h3{
+    padding: 0;
+    margin: 0;
+}
+.sample-design{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 900px;
+    padding: 20px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+.user-1{
+    display: flex;
+}
+.user-icon{
+    width: 4%;
+}
+.user-details-1{
+    padding: 5px;
+    margin-left: 10px;
+}
+.user-2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.user-details-2{
+    padding: 10px 0 10px 20px;
+}
+.product{
+    padding: 10px 0 10px 0;
+}
+.pro-name{
+    padding-bottom: 10px;
+}
+.product-review{
+    padding: 10px 0 20px 0;
+}
+.product-review h3{
+    padding-bottom: 10px;
+}
+.product-review p{
+    padding: 10px 0 10px 20px;
+}
+.s-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-inner-1, .s-inner-2{
+    display: flex;
+    grid-gap: 50px;
+}
+button{
+    width:100px;
+    padding: 7px;
+}
+.review-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+    grid-gap: 30px;
+}
+.search-div input{
+    width: 500px;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.mini-wrapper{
+    padding: 30px;
+}
+.main-nav-ul{
+    list-style-type: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.main-nav-li{
+    padding: 10px;
+}
+.main-nav{
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+}
+.main-nav-li a{
+    text-decoration: none;
+    color: black;
+}
+.review-title{
+    padding: 40px 20px;
+}
