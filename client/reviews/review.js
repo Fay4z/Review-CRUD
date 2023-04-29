@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('http://localhost:5000/getAll')
     .then(response => response.json())
     .then(data => loadallproduct(data['data']));
-    ;
 });
 
 document.querySelector('.sample').addEventListener('click', function(event) {
